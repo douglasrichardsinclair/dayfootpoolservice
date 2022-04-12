@@ -1,0 +1,385 @@
+#header {
+  background: #fff;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 0px!important;
+  top: 40px;
+  box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+}
+
+
+
+
+
+/*----HEADER LOGO-----*/
+
+#logo_symbol_header {
+	width:150px;
+	height:150px;
+	
+}
+
+#header_logo_text_1{
+	color: #f5b22f!important;
+	letter-spacing: 8.5px;
+	
+}
+
+#header_logo_text_2{
+	color: #3299d5!important;
+	
+	
+}
+
+
+
+
+/*----HEADER NAV-----*/
+.nav-menu a {
+  display: block;
+  position: relative;
+  color: #2c4964;
+  transition: 0.3s;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 2px;
+  border-bottom: 2px solid #fff;
+    border-bottom-color: rgb(255, 255, 255);
+}
+
+
+.appointment-btn {
+  margin-left: 25px;
+  background: #3299d5;
+  color: #fff;
+  border-radius: 50px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+}
+
+
+
+
+#hero {
+  width: 100%;
+  height: 120vh;
+  background: url("../img/hero_banner_1.png") top center;
+    background-attachment: scroll;
+    background-size: auto;
+	
+  background-size: cover;
+  position: relative;
+  margin-bottom: -200px;
+
+}
+
+
+#hero .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 25px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 35px;
+  margin-top: 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #3299d5;
+}
+
+#hero h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #f5b22f;
+}
+
+
+/*-----HEADER NAV RESPONSIVE-----*/
+
+@media only screen and (min-width: 320px) and (max-width: 991px){
+#header {
+  background: #fff;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 0px !important;
+  top: 0px!important;
+  box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+}
+}
+
+@media only screen and (min-width:400px) and (max-width:991px){
+	#logo_symbol_header {
+  width: 100px;
+  height: 100px;
+}
+	
+}
+
+
+@media only screen and (min-width:320px) and (max-width:399px){
+	#logo_symbol_header {
+  width: 50px;
+  height: 50px;
+}
+	
+}
+
+
+@media only screen and (min-width:320px) and (max-width:399px){
+	#header_logo_text_1 {
+  color: #f5b22f !important;
+  letter-spacing: 5.5px;
+  font-size: 20px;
+}
+}
+
+@media only screen and (min-width:320px) and (max-width:399px){
+	#header_logo_text_2 {
+  color: #3299d5!important;
+  
+  font-size: 20px;
+}
+}
+
+
+@media only screen and (min-width:320px) and (max-width:659px){
+	#app_button_header {
+  display: none;
+}
+	
+}
+
+@media only screen and (min-width:400px) and (max-width:659px){
+.mobile-nav-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  background: none;
+  font-size: 50px;
+  transition: all 0.4s;
+  outline: none !important;
+  line-height: 1;
+  cursor: pointer;
+  text-align: right;
+}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 413px){
+#header {
+  
+  padding: 0px 0px 10px 0px !important;
+   
+}
+}
+
+
+/*-----HERO BANNER RESPONSIVE  WITH VH
+@media only screen and (min-width:320px) and (max-width:991px){
+#hero {
+  height: 70vh;
+ 
+}
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px){
+#hero {
+  height: 90vh;
+ 
+}
+}
+
+
+-----*/
+/*----FOOTER LOGO-----*/
+
+#logo_symbol_footer {
+	width:150px;
+	height:150px;
+	
+}
+
+#footer_logo_text_1{
+	color: #f5b22f!important;
+	letter-spacing: 6px;
+	
+}
+
+#footer_logo_text_2{
+	color: #3299d5!important;
+	
+	
+}
+
+#logo_symbol_footer {
+  width: 150px;
+  height: 150px;
+  margin-left: 10px;
+}
+
+
+/*-----FOOTER-------*/
+
+#footer .footer-top {
+  padding: 0px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+}
+
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #444444;
+  position: relative;
+  padding-bottom: 12px;
+  padding-top: 50px;
+}
+
+
+.text-md-right {
+  text-align: left !important;
+}
+
+
+.pt-md-0, .py-md-0 {
+  padding-top: 10px !important;
+}
+
+
+#copyright_text {
+	margin:auto;
+	
+}
+
+#footer .footer-top {
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+  padding-top: 200px;
+}
+
+@media only screen and (min-width:320px) and (max-width:767px){
+	
+	#footer .footer-newsletter {
+  font-size: 15px;
+  padding-bottom: 50px;
+}
+}
+
+
+
+/*--------- SERVICES PAGE --------*/
+
+section {
+  padding: 250px 0px 0px 0px;
+  overflow: hidden;
+}
+
+
+#service_pricing_row {
+	text-align: center;
+	
+}
+
+
+.service_pricing_list{
+	
+	text-align: left;
+	margin-top: 30px;
+}
+
+.service_prices{
+	text-align: left;
+	margin-top: 30px;
+	
+}
+
+.strike_through{
+	text-decoration: line-through;
+}
+
+
+.services .icon-box:hover {
+  background: #ffffff!important;
+  border-color: #3299d5!important;
+  border-width: 10px;
+}
+
+
+.services .icon-box:hover h4 a, .services .icon-box:hover p {
+  color: #2c4964;
+}
+
+#services_footer_top {
+  padding-top: 0px!important;
+}
+
+.services .icon-box:hover .icon {
+  background: #badaf7;
+}
+
+.app_button_service_prices {
+	
+	margin: 30px;
+}
+
+#faq {
+	padding: 100px 0px 0px 0px;
+  overflow: hidden;
+	
+}
+
+
+/*-------ABOUT PAGE ------*/
+
+#about_section_text {
+	
+	padding-top: 0rem!important;
+}
+
+#gallery {
+	
+padding: 100px 0px 0px 0px;
+  overflow: hidden;
+}
+
+#testimonials {
+	padding: 100px 0px 0px 0px;
+  overflow: hidden;
+	margin-bottom: 50px;
+}
+
+
+#about_footer_top {
+  padding-top: 0px!important;
+}
+
+
+/*------APPOINTMENT FOOTER------*/
+
+#appointment_footer{
+	 padding-top: 0px!important;
+	
+}
+
+#appointment_container {
+	margin-bottom: 50px;
+	
+}
+
+
+/*---------CONTACT FOOTER TOP-------*/
+
+#contact_footer_top{
+	padding-top: 0px!important;
+	
+}
